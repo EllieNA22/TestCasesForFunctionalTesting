@@ -1,0 +1,153 @@
+
+**HomePage**
+
+| No. | Test Case | Description |
+|-----|-----------|-------------|
+| 1   | Horizontal Arrow Functionality | Test if the left and right navigation arrows allow scrolling through the banner. |
+| 2   | Automatic Scrolling Behavior | Confirm the banner auto-scrolls at the designated interval. |
+| 3   | Click on Banner Link | Click on the banner to verify it directs to the intended landing page. |
+| 4   | Click on Empty Banner Space | Click on the non-image area of the banner to ensure it still redirects correctly. |
+| 5   | Mobile & Tablet Responsiveness | Check how the banner displays on various devices like smartphones and tablets. |
+| 6   | Banner Load Performance | Measure the time it takes for the banner to load completely. |
+| 7   | Adaptation to Screen Sizes | Ensure the banner adjusts and displays properly across different screen sizes. |
+| 8   | Content Accuracy | Verify that the images and text on the banner are correctly displayed. |
+| 9   | Interactive Elements | Test any interactive elements (like buttons) within the banner for proper functionality. |
+
+---
+
+**LOGIN**
+
+| No. | Test Case | Description |
+|-----|-----------|-------------|
+| 1   | Successful Login | Test with correct credentials to ensure login is successful. |
+| 2   | Empty Login Form | Submit the form with no data and confirm error messages are displayed. |
+| 3   | Invalid Login ID | Use a non-existent ID and check the error response. |
+| 4   | Correct ID, Wrong Password | Use a valid ID but incorrect password to verify the error message. |
+| 5   | Captcha Verification | Check the captcha after several failed login attempts to ensure it activates. |
+| 6   | Persistent Login Option | Test if the "Keep me logged in" option works as expected. |
+| 7   | Password Recovery Process | Confirm the process for recovering or resetting passwords after multiple attempts. |
+| 8   | Navigation via Logo Click | Click the site logo to return to the homepage from the login screen. |
+| 9   | Autofill Features | Verify that browser autofill does not disrupt the login process. |
+| 10  | Security Measures | Check that login credentials are securely transmitted and stored. |
+
+---
+
+**CREATE ACCOUNT**
+
+| No. | Test Case | Description |
+|-----|-----------|-------------|
+| 1   | Account Creation with Valid Info | Successfully create an account using appropriate details. |
+| 2   | Submit Blank Form | Attempt to create an account with an incomplete form and verify error handling. |
+| 3   | Password Length Validation | Enter a password shorter than the required length and check for error messages. |
+| 4   | Optional Email Field | Confirm that providing an email address is not mandatory. |
+| 5   | Special Characters in Username | Test if usernames with special characters are accepted. |
+| 6   | Email Domain Validation | Check registration using email addresses with different domain structures. |
+| 7   | Mobile Number Format | Verify acceptance of various formats for mobile numbers. |
+| 8   | Email Format Validation | Ensure the email field validates correct email formats. |
+| 9   | Unique Username Requirement | Check if the system enforces unique usernames across accounts. |
+| 10  | Password Complexity Requirements | Verify any required complexity for passwords (e.g., inclusion of numbers/symbols). |
+
+---
+
+**SEARCH BOX**
+
+| No. | Test Case | Description |
+|-----|-----------|-------------|
+| 1   | Search with Letters | Test searching with alphabetic terms to ensure correct results. |
+| 2   | Search with Numbers | Verify that numeric search queries return relevant results. |
+| 3   | Alphanumeric Search | Check if the search function handles alphanumeric queries accurately. |
+| 4   | Autocomplete Suggestions | Test if the search box provides relevant suggestions as you type. |
+| 5   | Invalid Query Search | Verify behavior and response for non-existent or invalid search terms. |
+| 6   | Typographical Errors | Search using common misspellings to see if results are still useful. |
+| 7   | Keyboard Search Execution | Use keyboard shortcuts to enter and execute a search query. |
+| 8   | Account-Specific Search | Test searching with queries related to account information or settings. |
+| 9   | Search Result Relevance | Ensure search results match the query and are relevant. |
+| 10  | Filtering Options | Verify that any search filters applied work as expected. |
+
+---
+
+**SEARCH LIST PAGE**
+
+| No. | Test Case | Description |
+|-----|-----------|-------------|
+| 1   | Apply Filters | Test the application of single and multiple filters, and verify results update. |
+| 2   | Remove Filters | Confirm that removing filters resets the results correctly. |
+| 3   | Sorting Functionality | Verify that sorting options (e.g., by price, rating) work and display correct results. |
+| 4   | Pagination Controls | Test pagination features including navigating to previous, next, or specific pages. |
+| 5   | Delivery Information | Check the accuracy and visibility of delivery options and details. |
+| 6   | Sponsored Listings | Verify that sponsored items are displayed correctly and are distinguishable. |
+| 7   | Results Count Accuracy | Ensure that the displayed number of search results matches the actual count. |
+| 8   | Filter Effectiveness | Confirm that applying filters changes the result count as expected. |
+| 9   | Out-of-Stock Handling | Verify that out-of-stock items are displayed or filtered appropriately. |
+| 10  | Product Availability | Ensure that available products are shown and properly represented in search results. |
+
+---
+
+**PRODUCT DETAILS PAGE**
+
+| No. | Test Case | Description |
+|-----|-----------|-------------|
+| 1   | Product Information | Verify that all product details, including specifications and descriptions, are accurate. |
+| 2   | Related Products | Check the presence and relevance of suggested upsell or related products. |
+| 3   | Shipping Options | Confirm that shipping options and details are correctly displayed. |
+| 4   | Quantity Selector | Test the functionality of the quantity selection tool for proper operation. |
+| 5   | Add to Cart | Verify that adding a product to the cart updates the cart correctly. |
+| 6   | Wishlist Functionality | Check the “Add to Wishlist” feature and ensure it handles forced login scenarios. |
+| 7   | Color/Size Swatches | Test the display and selection of product variations like color and size swatches. |
+| 8   | Image Quality | Ensure that product images are high-definition and load properly. |
+| 9   | Customer Reviews | Verify that customer reviews are displayed and functioning correctly. |
+| 10  | Cross-Sell Opportunities | Check for any cross-sell suggestions and their accuracy. |
+
+---
+
+**SHOPPING CART PAGE**
+
+| No. | Test Case | Description |
+|-----|-----------|-------------|
+| 1   | Cart Product Details | Verify that product details in the cart are correct. |
+| 2   | Price Consistency | Ensure that prices in the cart match those on product detail and search pages. |
+| 3   | Quantity Adjustment | Test updating item quantities and ensure the price reflects these changes. |
+| 4   | Quantity Limits | Confirm that minimum and maximum quantity constraints are enforced. |
+| 5   | Suggested Products | Check if the cart displays any relevant product suggestions. |
+| 6   | Carousel Functionality | Verify the operation of product carousels in the cart. |
+| 7   | Promo Code Application | Test the application and effectiveness of promo codes in the cart. |
+| 8   | Empty Cart Feature | Ensure that the option to empty the cart works as intended and provides proper notifications. |
+| 9   | Save for Later | Verify the “Save for Later” functionality and ensure it maintains data accurately. |
+| 10  | Cart Summary Accuracy | Confirm that the cart summary displays accurate totals and item counts. |
+
+---
+
+**ACCOUNT PAGE**
+
+| No. | Test Case | Description |
+|-----|-----------|-------------|
+| 1   | Available Options | Verify that all account management options are accessible and functional. |
+| 2   | Hover Effects | Check if hovering over different account sections changes color or style as intended. |
+| 3   | Page Navigation | Ensure that all links on the account page navigate to the correct locations. |
+| 4   | Recommendation Widgets | Test the display and relevance of recommendation widgets on the account page. |
+| 5   | Scroll to Top Button | Confirm that the “Scroll to Top” button works and is positioned correctly. |
+| 6   | Account Information Accuracy | Verify that personal account details (name, email) are accurate and up-to-date. |
+| 7   | Security Settings Access | Test access and functionality of account security settings, such as password changes. |
+| 8   | Recent Activity Log | Ensure that recent activity logs are displayed and updated correctly. |
+| 9   | Notifications | Verify that notification settings and alerts are functioning properly. |
+| 10  | User Preferences | Check if user preferences and settings can be updated and saved effectively. |
+
+---
+
+**CUSTOMER SERVICE PAGE**
+
+| No. | Test Case | Description |
+|-----|-----------|-------------|
+| 1   | Pre/Post-Login Content | Verify differences in customer service content before and after login. |
+| 2   | Service Options Availability | Check that all customer service options and resources are accessible. |
+| 3   | Hover Effects | Test if hovering over service options changes their appearance as expected. |
+| 
+
+4   | Link Functionality | Ensure all links on the customer service page direct to the correct destinations. |
+| 5   | Search Functionality | Verify the effectiveness of the search function with both valid and invalid queries. |
+| 6   | Contact Form Usability | Test the contact form for usability, including submission and error handling. |
+| 7   | Live Chat Availability | Ensure that the live chat feature is available and responsive. |
+| 8   | FAQ Completeness | Check that the FAQ section is thorough and provides accurate answers. |
+| 9   | Return Policy Visibility | Verify that information about return policies is clearly presented. |
+| 10  | Customer Feedback Mechanism | Ensure there is a mechanism for customers to provide feedback or report issues. |
+
